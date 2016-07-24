@@ -1,0 +1,6 @@
+/*This is font css*/
+
+@font-face{
+	font-family: Coda;
+	src:url('../sources/font/Coda-Regular.ttf');
+}
