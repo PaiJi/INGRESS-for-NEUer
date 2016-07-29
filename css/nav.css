@@ -20,7 +20,7 @@ overflow: hidden;
 .Nav li{
 float: left;
 }
-.Nav a:link,a:visited
+.Nav a:link,.Nav a:visited
 {
 display:block;
 width: 120px;
