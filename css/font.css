@@ -4,3 +4,6 @@
 	font-family: Coda;
 	src:url('../sources/font/Coda-Regular.ttf');
 }
+body{
+	font-family: Coda,Microsoft YaHei;
+}
