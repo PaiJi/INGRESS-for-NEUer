@@ -29,8 +29,9 @@ body{background-color: rgb(240,240,240);}
 .img_content{
 	margin-top: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	border-style: solid;
-	border-width: 2px 0px 0px 0px;
+	border-width: 1px 0px 1px 0px;
 	text-align:center;
 	margin:0 auto;
 }
@@ -70,4 +71,49 @@ body{background-color: rgb(240,240,240);}
 }
 .content_box:hover #join_left,.content_box:hover #join_right{
 	opacity: 1;
+}
+.friend{
+	margin-top: 10px;
+
+}
+.friend_shimmer{
+	width: 290px;
+	height: 157px;
+	/*border-style: solid;
+	border-width: 1px;*/
+	box-shadow: 10px 10px 26px 	rgb(144,144,144);
+	transition:width 0.5s,height 0.5s;
+
+}
+.friend_shimmer:hover{
+	width: 310px;
+	height: 219px;
+
+}
+.friend_shimmer img{
+	width: 100%;
+}
+.friend_shimmer:hover #friend_detail{
+	opacity: 1;
+	transition:opacity 3s;
+}
+#friend_detail{
+	opacity: 0;
+}
+.friend a{
+	text-decoration: none;
+	color: black;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	position: absolute;
+	background:rgba(0, 0, 0, 0.60);
+	overflow: hidden;
+}
+.footer p{
+	text-align: center;
+	font-size: 21px;
+ 	color: white;
 }
