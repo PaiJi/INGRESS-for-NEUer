@@ -8,7 +8,6 @@
 html{
 	background-image: url('../sources/banner_size.jpg');
 	background-repeat: no-repeat;
-	/*background-size:cover;*/
 }
 .footer{
 	width: 100%;
@@ -16,11 +15,11 @@ html{
 	bottom: 0;
 	position: absolute;
 	background:rgba(0, 0, 0, 0.70);
-	font-family: Coda;
 	overflow: hidden;
 }
 .footer_text{
 	float: left;
+	margin-left: 12px;
 }
 .footer_text h2{
 	color: rgb(17,236,247);
@@ -33,16 +32,4 @@ html{
 .footer_text p{
 	color: white;
 
-}
-.img_content img{
-	width: 45px;
-	position: absolute;
-	top:8px;
-	left:560px;
-	-webkit-filter: grayscale(85%); /* Chrome, Safari, Opera */
-    transition:-webkit-filter 1.5s;
-
-}
-.img_content img:hover{
--webkit-filter:grayscale(0%);
 }
